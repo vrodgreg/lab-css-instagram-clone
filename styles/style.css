@@ -4,7 +4,88 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+body { 
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat : repeat-x;
+  width:100%;
+  /*display:flex;
+  flex-direction: row;*/
+  
+}
+
+.mainBodyDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.mainFrame {
+  /*background-color: green;*/
+  padding: 40px 0px 0px 0px;
+  width: 60%;
+}
+
+.descriptionFrame {
+  width: 80%;
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 2%;
+}
+
+.iphonePic {
+  width: 30%;
+  /*background-color: thistle;*/
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  margin: 15px 0px 0px 0px;
+  padding: 15px;
+}
+
+.iphonePic img {
+  width: 100%;
+}
+
+.logoLogInFrame {
+  width: 80%;
+  margin: 15px;
+  padding: 15px;
+  /*background-color: darkblue;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandLogo {
+  width: 85%
+}
+
+.logInButton {
+  width: 120px;
+  height: 50px;
+  background: linear-gradient(#266ca6, #1c5380);
+  box-shadow: 2px 2px 1px 1px #06365f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 5%;
+}
+
+footer {
+  align-self: center;
+  width: 60%;
+  font-size: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:auto;
+  align-items: center;
 }
